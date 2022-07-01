@@ -1,0 +1,22 @@
+.image-wrapper {
+    background: url('../../../../assets/images/ji-mmm-yy-Jr5x1CAWySo-unsplash.jpg');
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 7rem;
+}
+
+.text-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-wrapper h1 {
+    color: #fff;
+    font-size: 32px;
+    letter-spacing: 1.5px;
+}

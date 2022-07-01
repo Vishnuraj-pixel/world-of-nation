@@ -1,0 +1,49 @@
+.brand {
+    background: url('../../../../assets/images/michael-weir-dpd3Hn47ojg-unsplash.jpg');
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.text-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -60%);
+}
+
+.text-wrapper h1 {
+    color: #fff;
+    font-size: 32px;
+    letter-spacing: 1.5px;
+}
+
+.ambassadors {
+    padding: 1rem
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.profiles > h1 {
+    text-align: center;
+}
+
+.profiles > p {
+    text-align: center;
+}
+
+.img-wrapper {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin: 4rem 2rem 4rem 2rem;
+}
+
+.img-wrapper img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}

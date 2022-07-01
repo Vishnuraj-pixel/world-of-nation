@@ -1,0 +1,40 @@
+<section class="contactUsImage">
+    <h1>Contact us</h1>
+    <img src="../../../../assets/images/jeffrey-f-lin-pSHpFB5WNUE-unsplash.jpg" alt="">
+</section>
+<section class="contactUs">
+    <div class="row">
+        <div class="address">
+            <p>
+                Building name, Building No,<br />
+                Place, Landmark, District, State
+            </p>
+            <br />
+            <p>
+                +911893739087, +917648374838
+            </p>
+            <br />
+            <p>
+                info@wonderofnation.com
+            </p>
+            <br />
+            <p>
+                www.wonderofnation.com
+            </p>
+        </div>
+        <div class="contact-with-us">
+            <h1>Contact With Us</h1>
+            <br />
+            <form class="input-wrapper" [formGroup]="contact_us" (ngSubmit)="contactUs()">
+                <input type="text" placeholder="Name" formControlName="name">
+                <span *ngIf="contact_us.get('name').touched && contact_us.get('name').hasError('required')">Enter name</span>
+                <input type="email" placeholder="Email" formControlName="email">
+                <span *ngIf="contact_us.get('name').touched && contact_us.get('email').hasError('required')">Enter email</span>
+                <input type="text" placeholder="Phone" formControlName="phone">
+                <span *ngIf="contact_us.get('name').touched && contact_us.get('phone').hasError('required')">Enter phone</span>
+                <textarea rows="6" placeholder="Message" formArrayName="message"></textarea>
+                <button type="submit" class="btn btn-submit" [disabled]="!contact_us.valid">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>

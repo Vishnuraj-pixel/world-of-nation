@@ -1,0 +1,18 @@
+<section class="brand">
+    <div class="text-wrapper">
+        <h1>Brand Ambassadors</h1>
+    </div>
+</section>
+<br />
+<section class="ambassadors">
+    <div class="profiles" *ngFor="let res of getData">
+        <h1>{{res.title}}</h1>
+        <br />
+        <p>{{res.description}}</p>
+        <div class="row">
+            <div class="img-wrapper" *ngFor="let image of res.images">
+                <img [src]="image.image" alt="">
+            </div>
+        </div>
+    </div>
+</section>

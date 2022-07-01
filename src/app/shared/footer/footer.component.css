@@ -1,10 +1,13 @@
 .footer {
     width: 100%;
     min-height: 350px;
-    background-color:aquamarine;
+    background: url('../../../assets/images/vienna-reyes-qCrKTET_09o-unsplash.jpg');
     position: relative;
     bottom: 0px;
     z-index: 1;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .tagline {

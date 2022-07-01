@@ -43,3 +43,7 @@ mat-icon {
 .nav-items > li > a {
     text-decoration: none;
 }
+
+.active {
+    color: #4d4a4a;
+}
